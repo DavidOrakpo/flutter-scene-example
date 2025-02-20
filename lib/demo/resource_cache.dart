@@ -1,7 +1,8 @@
-import 'package:flutter_scene/material/physically_based_material.dart';
-import 'package:flutter_scene/material/unlit_material.dart';
-import 'package:flutter_scene/node.dart';
+// import 'package:flutter_scene/material/physically_based_material.dart';
+// import 'package:flutter_scene/material/unlit_material.dart';
+// import 'package:flutter_scene/node.dart';
 import 'package:flutter_soloud/flutter_soloud.dart';
+import 'package:flutter_scene/scene.dart';
 
 Node convertToUnlit(Node node) {
   // Search for all mesh primitives and convert them to unlit.
